@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="oficina mecânica, autofix, reparo de carros, manutenção automotiva, serviços automotivos, arrumar meu carro, arrumar minha moto">
+    <meta name="description" content="Oficina mecânica">
+    <script src="https://kit.fontawesome.com/d0fd81da1b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href= "./stylesheet.css">
+    <title>AutoFix | A oficina em que você confia!</title>
+</head>
+<body>
+
+    <!-- Menu -->
+
+    <header>
+        <div id="menu-estilo">
+            <h2 id="logo"><span class="letra-verde">A</span>uto<span class="letra-verde">F</span>ix</h2>
+            <nav>
+                <ul class="menu">
+                    <li class="itens-menu"><a href="#logo">Início</a></li>
+                    <li class="itens-menu"><a href="#titulos-servicos">Serviços</a></li>
+                    <li class="itens-menu"><a href="#sobre-nos-titulo">Sobre Nós</a></li>
+                </ul>
+                <div id="botão-hamburguer-flex">
+                    <button id="botão-hamburguer-borda" onclick="estadoBotao()"><span id="botão-hamburguer"><i class="fa-solid fa-bars" style="color: #ffffff;"></i></span></button>
+                </div>
+            </nav>
+        </div>
+        <div id="menu-celular-estilo">
+            <ul class="menu-celular">
+                <li class="itens-menu-celular"><a href="#logo">Início</a></li>
+                <li class="itens-menu-celular"><a href="#titulos-servicos">Serviços</a></li>
+                <li class="itens-menu-celular"><a href="#sobre-nos-titulo">Sobre Nós</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!--Hero row-->
+
+    <main>
+        <section id="hero-row">
+            <div id="hero-row-estilo">
+                <div id="frase-introducao-estilo">
+                    <h1 id="frase-introducao">Confiabilidade e qualidade em serviços automotivos.</h1>
+                <div>
+                <div id="paragrafo-introducao-estilo">
+                    <p id="paragrafo-introducao">Bem-vindo à nossa oficina. Serviços automotivos de qualidade. Soluções confiáveis. Visite-nos!</p>
+                </div>
+                <div id="meu-botao-estilo">
+                    <button id="meu-botao">Ligue Já!</button>
+                </div>
+                <img src="https://cdn.pixabay.com/photo/2016/11/29/09/32/auto-1868726_1280.jpg" alt="carro antigo" id="imagem-para-celulares">
+            </div>
+        </section>
+
+    <!--Servicos Row-->
+
+        <section id="servicos-row">
+            <div id="titulos-servicos-estilo">
+                <h2 id="titulos-servicos">SERVIÇOS</h2>
+            </div>
+
+            <div id="caixa-servicos-estilo">
+                <article id="revisoes">
+                    <div class="caixa-servicos">
+                        <h3 class="servicos-titulo">Revisões</h3>
+                        <p class="servicos-paragrafo">Mantenha seu carro em perfeitas condições com nossas revisões completas. Segurança e confiabilidade para você dirigir tranquilo.</p>
+                    </div>
+                </article>
+                
+                <article id="reparos-automotivos">
+                    <div class="caixa-servicos">
+                        <h3 class="servicos-titulo">Reparos</h3>
+                        <p class="servicos-paragrafo">Não deixe pequenos problemas se tornarem grandes dores de cabeça. Nossos reparos são rápidos e eficientes para você voltar à estrada.</p>
+                    </div>
+                </article>
+
+                <article id="revenda-de-peças">
+                    <div class="caixa-servicos">
+                        <h3 class="servicos-titulo">Revenda de peças</h3>
+                        <p class="servicos-paragrafo">Precisando de peças para o seu carro? Temos uma ampla variedade de peças originais e de alta qualidade para atender às suas necessidades. </p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+    <!--Sobre Nós Row-->
+
+        <section id="sobre-nos-row">
+            <div id="sobre-nos-row-estilo">
+                <div id="sobre-nos-texto-flex">
+                    <h2 id="sobre-nos-titulo">SOBRE NÓS</h2>
+                    <p id="sobre-nos-paragrafo">A AutoFix é uma oficina mecânica familiar com mais de 20 anos de experiência. Oferecemos serviços de qualidade, 
+                        com agilidade e transparência. Nossa equipe é qualificada e utilizamos equipamentos modernos e peças originais. Realizamos serviços 
+                        simples e complexos em veículos nacionais e importados. Venha nos conhecer e comprove nossa excelência. AutoFix, sua oficina de confiança!</p>
+                </div>
+                <img src="https://cdn.pixabay.com/photo/2016/05/08/23/20/keys-1380134_1280.jpg" alt="chaves divervas de manutenção em uma parede azul" id="foto-chave">
+            </div>
+        </section>
+    </main>
+
+    <!--Footer-->
+
+    <footer>
+        <div id="footer-estilo">
+            <h2 id="logo"><span class="verde">A</span>uto<span class="verde">F</span>ix</h2>
+            <div id="lista-icones">
+                <ul>
+                    <li id="facebook"><a href="#" title="facebook icone link"><i class="fa-brands fa-facebook" style="color: #FFFFFF;"></a></i></li>
+                    <li id="whatsapp"><a href="#" title="whatsapp icone link"><i class="fa-brands fa-whatsapp" style="color: #FFFFFF;"></a></i></li>
+                    <li id="instagram"><a href="#" title="instagram icone link"><i class="fa-brands fa-instagram" style="color: #FFFFFF;"></a></i></li>
+                </ul>
+            </div>
+            <p id="copyright-texto">Este site está protegido por direitos autorais. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    
+    <!--Script para o botão de menu funcionar em telas menores-->
+
+    <script>
+        function estadoBotao () {
+            const menuCelularEstilo = document.getElementById('menu-celular-estilo');
+            if (menuCelularEstilo.style.display == 'block') {
+                menuCelularEstilo.style.display = 'none';
+            } else {
+                menuCelularEstilo.style.display = 'block';
+            }
+        }
+    </script>
+
+</body>
+</html>
