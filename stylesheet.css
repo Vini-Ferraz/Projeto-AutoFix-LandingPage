@@ -19,7 +19,6 @@
     transition-duration: 200ms;
     transition-timing-function: linear;
     scroll-behavior: smooth;
-
 }
 
 /*Estilização do menu*/
@@ -82,6 +81,8 @@ a {
 #hero-row-estilo {
     width: 100%;
     background-image: linear-gradient(90deg, rgb(22, 20, 97)7%, rgb(32, 32, 32, 0%)), url(https://cdn.pixabay.com/photo/2014/06/04/16/36/man-362150_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #imagem-fundo-hero-row{
@@ -124,6 +125,7 @@ a {
     height: 5vw;
     font-size: 2.5vw;
     border-radius: 0.5vw;
+    cursor: pointer;
 }
 
 #meu-botao:hover {
@@ -152,6 +154,7 @@ a {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+    padding: 0 3.5vw;
 }
 
 #titulos-servicos-estilo {
@@ -170,6 +173,7 @@ a {
 .caixa-servicos {
     height: 29vw;
     width: 29vw;
+    margin: 0 1vw;
     border: 0.3vw solid var(--preto);
     margin-bottom: 8vw;
     background-color: var(--azul-fundo);
@@ -234,7 +238,7 @@ a {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 3vw 0;
+    padding: 1.5vw 0;
 }
 
 #copyright-texto {
@@ -261,6 +265,7 @@ a {
         font-size: 7vw;
         background-color: var(--azul);
         padding: 1vw;
+        cursor: pointer;
     }
 
     #menu-celular-estilo {

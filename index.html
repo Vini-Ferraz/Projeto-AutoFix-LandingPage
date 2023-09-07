@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="oficina mecânica, autofix, reparo de carros, manutenção automotiva, serviços automotivos, arrumar meu carro, arrumar minha moto">
-    <meta name="description" content="Oficina mecânica">
+    <meta name="keywords" content="Autofix, oficina mecânica, revisão de carro, reparos de carro, revenda de peças de carro, serviços automotivos, soluções confiáveis”">
+    <meta name="description" content="Autofix - Oficina mecânica oferecendo serviços de qualidade, incluindo revisão, reparos e revenda de peças. Soluções confiáveis para o seu carro. Visite-nos e experimente nossos serviços!">
     <script src="https://kit.fontawesome.com/d0fd81da1b.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href= "./stylesheet.css">
+    <title>AutoFix | A oficina em que você confia!</title>
 </head>
 <body>
 
@@ -120,11 +121,11 @@
 
     <script>
         function estadoBotao () {
-            const menuCelularEstilo = document.getElementById('menu-celular-estilo');
-            if (menuCelularEstilo.style.display == 'block') {
-                menuCelularEstilo.style.display = 'none';
-            } else {
+            let menuCelularEstilo = document.getElementById('menu-celular-estilo');
+            if (menuCelularEstilo.style.display == 'none') {
                 menuCelularEstilo.style.display = 'block';
+            } else {
+                menuCelularEstilo.style.display = 'none';
             }
         }
     </script>
